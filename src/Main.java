@@ -50,7 +50,7 @@ public class Main {
 
         // Bandingkan dan salin ke array utama
         while (i < n1 && j < n2) {
-            if (leftArray[i] <= rightArray[j]) {
+            if (leftArray[i] >= rightArray[j]) {
                 arr[k++] = leftArray[i++];
             } else {
                 arr[k++] = rightArray[j++];
