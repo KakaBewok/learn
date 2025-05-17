@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        int[] array = {6, 3, 8, 5, 2, 7, 4, 1};
+        int[] array = {6, 3, 8, 5, 2, 7};
 
         System.out.println("Sebelum diurutkan:");
         printArray(array);
